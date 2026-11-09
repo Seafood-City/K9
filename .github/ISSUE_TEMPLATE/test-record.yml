@@ -1,0 +1,30 @@
+name: Test execution record
+description: Record an executed simulation or hardware test.
+title: "[Test] "
+body:
+  - type: input
+    id: test_id
+    attributes:
+      label: Existing test ID and run date
+    validations:
+      required: true
+  - type: textarea
+    id: baseline
+    attributes:
+      label: Baseline and setup
+      description: Include source commit, platform, firmware, configuration, operator and physical stop method if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected result, observed result and disposition
+      description: Use PASS, FAIL, BLOCKED or NOT RUN with an explanation.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence links and follow-up
+    validations:
+      required: true

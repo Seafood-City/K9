@@ -1,0 +1,13 @@
+# Add active rules after verifying exact GitHub handles or organization teams.
+# Code owners must have explicit write access to this repository.
+# Example format only; the account/team below is a placeholder.
+#
+# *                            @Seafood-City/REPLACE_WITH_VERIFIED_TEAM
+# /software/                   @REPLACE_WITH_VERIFIED_LOGIN
+# /config/pixhawk/             @REPLACE_WITH_VERIFIED_LOGIN
+# /hardware/                   @REPLACE_WITH_VERIFIED_LOGIN
+# /docs/verification/          @REPLACE_WITH_VERIFIED_LOGIN
+# /.github/                    @Seafood-City/REPLACE_WITH_VERIFIED_TEAM
+#
+# This file currently requests no reviewers. The main ruleset requires one
+# ordinary approving review; code-owner approval remains disabled for now.

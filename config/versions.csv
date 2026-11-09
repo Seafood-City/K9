@@ -1,0 +1,8 @@
+component,version,status,verification_reference
+Pixhawk 6C / ArduPilot Rover,4.7.2,Previously reported; verify on vehicle,
+Jetson Orin Nano Super,TBD,Record JetPack and L4T release,
+Ubuntu,TBD,Read installed OS version,
+Python,TBD,Read device runtime version,
+ZED SDK,TBD,Read installed compatible SDK version,
+ROS 2,TBD,Record only if adopted and installed,
+Mission Planner,TBD,Read installed application version,

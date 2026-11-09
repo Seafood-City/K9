@@ -1,0 +1,5 @@
+area,responsible_person,github_handle,scope
+Integration and evidence,Justin Natividad,TBD,Integration records and cross-module verification
+Pixhawk and vehicle control,Robert,TBD,Rover configuration and control interface
+Jetson and ZED perception,Karl,TBD,Compute and camera integration
+Chassis and actuator wiring,Nick,TBD,Mechanical and actuator wiring
