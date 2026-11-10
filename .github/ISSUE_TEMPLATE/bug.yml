@@ -1,0 +1,22 @@
+name: Bug report
+description: Record a reproducible software, configuration or integration failure.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and configuration
+      description: Include commit, platform, firmware and parameter snapshot where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and impact
+      description: Link sanitized logs, test IDs or evidence. Do not include secrets.

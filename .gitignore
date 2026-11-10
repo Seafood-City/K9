@@ -1,0 +1,103 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.idea/
+.vs/
+.vscode/
+
+# Local secrets; keep sanitized example files
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.local.*
+secrets.local.*
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+.eggs/
+build/
+dist/
+*.whl
+
+# ROS 2 / colcon outputs; keep workspace src directories
+install/
+log/
+.colcon/
+
+# C/C++ and CMake outputs
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+
+# Local vehicle configuration overrides; keep approved .param snapshots
+*.local.param
+*.local.yaml
+*.local.yml
+*.local.json
+
+# Large generated sensor captures and telemetry
+*.bag
+*.db3
+*.mcap
+*.svo
+*.svo2
+*.tlog
+*.rlog
+
+# Local downloads, runtime logs and raw/model data
+/logs/*
+!/logs/README.md
+/data/raw/*
+!/data/raw/README.md
+/data/models/*
+!/data/models/README.md
+/artifacts/
+/tmp/
+/downloads/
+
+# Altium generated/cache/backup files; preserve design source and libraries
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.DsnWrk
+*.lck
+*.bak
+*.zip
+# Extract starter archives into the correct source directories before committing.
+# Do not ignore .param, .SchDoc, .PcbDoc, PDF, DOCX, PPTX or evidence images.
